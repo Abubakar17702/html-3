@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<style>
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+    fieldset{
+        width: 250px;
+        margin: 0 auto;
+        height: 550px;
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <th>Abubakar Network</th>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="about.html">About</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+            <td><a href="media.html">Media</a></td>
+            <td><a href="contact.html">Contact</a></td>
+            <td><a href="login.html">Login</a></td>
+            <td><a href="register.html">Register</a></td>
+        </tr>
+    </table>
+    <hr>
+    <div style="text-align: center;">
+    <h1>This Is Register Page</h1>
+    <hr>
+    <h2>Please Register To Continue</h2>
+    <p>All Fields Are Required.</p>
+</div>
+<hr>
+<fieldset>
+    <legend>Register</legend>
+<form action="get.php">
+<label for="name">Full Name:</label>
+<br>
+<input type="text" placeholder="Enter Your Name" id="name" required>
+<br><br>
+<label for="email">Email:</label>
+<br>
+<input type="email" placeholder="Enter Your Email" id="email" required>
+<br><br>
+<label for="password">Password:</label>
+<br>
+<input type="password" placeholder="Enter Your Password" id="password" required>
+<br><br>
+<label>Select Gender:</label>
+<br>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" required>
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender" required>
+<br><br>
+<label>Hobbies:</label>
+<br>
+<label for="mus">Music</label>
+<input type="checkbox" id="mus">
+<label for="art">Art</label>
+<input type="checkbox" id="art">
+<label for="paint">Painting</label>
+<input type="checkbox" id="paint">
+<br><br>
+<label>Select Country:</label>
+<br>
+<select name="Country" id="country">
+    <option value="Pakistan">Pakistan</option>
+    <option value="Saudi Arabia">Saudi Arabia</option>
+    <option value="Turkey">Turkey</option>
+    <option value="US">United States</option>
+    <option value="Dubai">Dubai</option>
+    <option value="Afganistan">Afganistan</option>
+    <option value="Canada">Canada</option>
+    <option value="Australia">Australia</option>  
+</select>
+<br><br>
+<label for="date">Date Of Birth:</label>
+<br>
+    <input type="date" id="date" required>
+    <br><br>
+    <label for="file">Upload Your Photo:</label>
+    <br>
+    <input type="file" id="file" required>
+    <br><br>
+    <button>Register</button>
+    <br><br>
+    <a href="login.html">Already a user?</a>
+</form>
+</fieldset>
+<hr>
+    <p style="text-align: center;">Copyright &#xa9 2024. All Rights Reserved</p>
+</body>
+</html>

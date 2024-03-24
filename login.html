@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: auto;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+    fieldset{
+        margin: 0 auto;
+        height: 200px;
+    width: 180px;
+    padding-top: 20px;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>Abubakar Network</th>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="about.html">About</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+            <td><a href="media.html">Media</a></td>
+            <td><a href="contact.html">Contact</a></td>
+            <td><a href="login.html">Login</a></td>
+            <td><a href="register.html">Register</a></td>
+        </tr>
+    </table>
+    <div style="text-align: center;">
+        <hr>
+        <h1>This Is Login Page</h1>
+        <hr>
+        <h2>Please Login To Continue</h2>
+    </div>
+    <hr>
+    <fieldset>
+            <legend>Login</legend>
+            <form action="get.php">
+            <label for="mail">Email:</label>
+            <br>
+            <input type="email" id="mail" placeholder="Enter Your Email" required>
+            <br><br>
+            <label for="pass">Password:</label>
+            <br>
+            <input type="password" id="pass" placeholder="Enter Your Password" required>
+            <br><br>
+            <button>Login</button>
+            <br><br>
+            <a href="register.html">Not a user?</a>
+    </form>
+    </fieldset>
+    <hr>
+    <p style="text-align: center;">Copyright &#xa9 2024. All Rights Reserved</p>
+</body>
+
+</html>
